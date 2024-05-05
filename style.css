@@ -1,0 +1,58 @@
+/*PC・スマホ共通適用*/
+html {
+    color: #000;
+    background-color: #fff 
+}
+
+body {
+    font-family: "Noto Sans Japanese", Meiryo, Arial, san-serif;
+    text-align: center;
+    position: relative;
+}
+
+/*PCレイアウト：レスポンシブスタイル*/
+@media screen and (min-width: 768px) and (max-width: 1200px){
+
+nav {
+    font-size: 34px;
+}
+h2 {
+    font-size: 34px;
+}    
+h3 {
+    font-size: 24px;
+}
+
+p, span {
+    font-size: 18px;
+}
+
+#top-img {
+    width: auto;
+}
+
+/**/
+}
+/*スマホレイアウト：レスポンシブスタイル*/
+@media screen and (max-width: 767px){
+
+nav {
+    font-size: 34px;
+}
+h2 {
+    font-size: 34px;
+}    
+h3 {
+    font-size: 24px;
+}
+
+p, span {
+    font-size: 18px;
+}
+
+#top-img {
+    width: auto;
+}
+/**/
+/**/
+}
